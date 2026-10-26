@@ -1,0 +1,14 @@
+flake8
+mypy
+pytest
+pytest-asyncio
+bleak>=1.1.1
+bleak-winrt; platform_system == "Windows" and python_version<"3.12"
+aioconsole
+numpy
+pyobjc; platform_system == "Darwin"
+twisted; platform_system == "Linux"
+dbus-next; platform_system == "Linux"
+git+https://github.com/gwangyi/pysetupdi; platform_system == "Windows"
+pywin32; platform_system == "Windows"
+coloredlogs

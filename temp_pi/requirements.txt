@@ -1,0 +1,15 @@
+flake8
+mypy
+pytest
+pytest-asyncio
+bleak>=1.1.1
+bless==0.3.0
+bleak
+aioconsole
+numpy
+pyobjc; platform_system == "Darwin"
+twisted; platform_system == "Linux"
+dbus-next; platform_system == "Linux"
+git+https://github.com/gwangyi/pysetupdi; platform_system == "Windows"
+pywin32; platform_system == "Windows"
+coloredlogs
